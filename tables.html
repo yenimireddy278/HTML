@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+        th, td {
+            border: 1px solid rgb(32, 239, 135);
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(35, 4, 4);
+            color: white;
+        }
+        tfoot td {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Rahul</td>
+                <td>Java</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Anitha</td>
+                <td>Python</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Arun</td>
+                <td>WebDevelopment</td>
+                <td>78</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Average</td>
+                <td>84.3</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
